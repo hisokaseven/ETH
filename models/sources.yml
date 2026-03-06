@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: eth
+    database: ETH  #snowflake db
+    schema: ETH_SCHEMA   # snowflake schema
+    tables:
+      - name: contracts
+      - name: token_transfers
+      - name: transactions
